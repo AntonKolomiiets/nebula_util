@@ -1,0 +1,59 @@
+cat <<EOF > .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Local development
+.direnv/
+
+# Security
+*.pem
+*.key
+
+# Test files
+coverage.xml
+
+# Custom exclusions (add your specific files here)
+*.json
+temp/
+.DS_Store
+EOF
