@@ -57,4 +57,4 @@ coverage.xml
 temp/
 .DS_Store
 EOF
-cookies.pkl
+.pkl
